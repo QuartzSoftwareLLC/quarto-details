@@ -1,0 +1,13 @@
+---
+title: "Detail Example"
+filters:
+  - details
+---
+
+## Heading
+
+```{r}
+#| details: true
+library(ggplot2)
+plot(iris)
+```
